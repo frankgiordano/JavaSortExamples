@@ -44,15 +44,13 @@ public class PriorityTask implements Comparable<PriorityTask> {
 	public int compareTo(PriorityTask o) {
 		
 		int result = 0;
-
 		int mustGoCompareValue;
+		int deadLineDateCompareValue;
+		int startDateTimeCompareValue;
+		
 		Boolean flag = o.mustGo;
 		mustGoCompareValue = flag.compareTo(this.mustGo);
-
-		int deadLineDateCompareValue;
 		deadLineDateCompareValue = o.deadLineDate.compareTo(this.deadLineDate);
-
-		int startDateTimeCompareValue;
 		startDateTimeCompareValue = o.startDateTime.compareTo(this.startDateTime);
 
 		// if all three sort values are the same return 0
@@ -74,9 +72,9 @@ public class PriorityTask implements Comparable<PriorityTask> {
 		if (mustGoCompareValue == 0) {
 			if (deadLineDateCompareValue != 0) {
 				if (deadLineDateCompareValue > 0)
-					result = -1;
-				else
 					result = 1;
+				else
+					result = -1;
 			return result;
 			}
 		}
