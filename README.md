@@ -1,6 +1,6 @@
 # JavaSortExamples
 
-The following project has demonstrates ways on whow soring can be performed in Java. 
+The following project demonstrates ways on whow soring can be performed in Java. 
 
 The first is the old way legacy with comparable interface.
 
