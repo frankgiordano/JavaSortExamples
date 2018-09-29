@@ -3,6 +3,7 @@
 The following project demonstrates ways how sorting can be performed in Java. 
 
 Exmaples:
+
 Legacy with comparable interface.
 
 Google's Gauvu Libary with a comparator interface and shows a much easier and cleaner way to sort.
