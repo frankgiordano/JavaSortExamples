@@ -1,8 +1,8 @@
-# JavaSortExamples
+# Java Sort Examples
 
 The following project demonstrates ways how sorting can be performed in Java. 
 
-Exmaples:
+Examples:
 
 Legacy with comparable interface.
 
