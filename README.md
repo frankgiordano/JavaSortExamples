@@ -1,6 +1,6 @@
 # Java Sort Examples
 
-The following project demonstrates ways how sorting can be performed in Java. 
+The following project demonstrates ways on how sorting can be performed in Java. 
 
 Examples:
 
@@ -14,6 +14,6 @@ Java 8's Comparator.comparing() method.
 
 Apache Commons Comparator.builder().
 
-This project was used for a presentation at LI java meetup:
+This project was used for a presentation at LI Java meetup:
 
 https://www.meetup.com/Long-Island-Java-Meetup/events/252933995/
